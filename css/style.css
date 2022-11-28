@@ -1,0 +1,17 @@
+ .query-class{
+    padding: .5rem 1rem;
+    border: 1px solid salmon;
+    margin: .5rem 0;
+    width: 300px;
+    cursor: pointer;
+ }
+
+ .query-class.active{
+    background-color: salmon;
+    border: 1px solid red;
+    color: white;
+ }
+
+ .query-class:hover{
+   background-color: bisque;
+ }

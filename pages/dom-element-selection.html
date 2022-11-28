@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julian Mancinelli">
+    <meta name="description" content="Practica DOM, GetElementById">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>DOM Elements Selection</title>
+</head>
+<body>
+    <header class="text-center">
+        <a href="../index.html">General</a>
+    </header>
+    <main  class="container">
+        <h1 class="text-center">DOM Elements Selection</h1>
+        <div id="byId" class="p-3 border border-primary m-2">
+            Selector getElementByID
+        </div>
+        <div id="queryId" class="p-3 border border-primary m-2">
+            Selector querySelector
+        </div>
+        <div class="query-class" onclick="activarElemento(0)">Query 1</div>
+        <div class="query-class" onclick="activarElemento(1)">Query 2</div>
+        <div class="query-class" onclick="activarElemento(2)">Query 3</div>
+        <div class="query-class" onclick="activarElemento(3)">Query 4</div>
+    </main>
+    <footer></footer>
+    <script src="../js/element-Class.js"></script>
+</body>
+</html>
